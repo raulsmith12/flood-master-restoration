@@ -5,7 +5,7 @@ import axios from 'axios';
 import swal from 'sweetalert';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-import { GoogleKey } from './GoogleKey';
+import { GoogleKey } from '../../components/GoogleKey';
 
 const API_PATH = 'https://floodmasterrestorationllc.com/backend/public/api/contact';
 

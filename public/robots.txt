@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Disallow: /404
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://floodmasterrestorationllc.com/
+
+# Sitemaps
+Sitemap: https://floodmasterrestorationllc.com/sitemap.xml
+Sitemap: https://floodmasterrestorationllc.com/server-sitemap.xml
