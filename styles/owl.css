@@ -1,0 +1,88 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-header {
+    background-color: yellow;
+}
+
+.bg-menu {
+    background: rgb(205,205,205);
+    background: linear-gradient(180deg, rgba(205,205,205,1) 0%, rgba(106,106,106,1) 50%, rgba(45,45,45,1) 100%);
+}
+
+.nav-item {
+    font-size: 1.7rem;
+}
+
+.nav-link {
+    text-shadow: 1px 1px 5px black;
+}
+
+.hidden {
+    display: none;
+}
+
+.bg-water {
+    background-image: url("https://floodmasterrestorationllc.com/img/water-damage-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg-mold {
+    background-image: url("https://floodmasterrestorationllc.com/img/tim-mossholder-R4PXm64sWwI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg-fire {
+    background-image: url("https://floodmasterrestorationllc.com/img/maksym-kaharlytskyi-uYv3ura5M9A-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg-sewer {
+    background-image: url("https://floodmasterrestorationllc.com/img/ian-talmacs-KvIPGhVXeoI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg-hoarding {
+    background-image: url("https://floodmasterrestorationllc.com/img/denny-muller-fTWvRkMrNtY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg-biohazard {
+    background-image: url("https://floodmasterrestorationllc.com/img/featured-image-970x545.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg-overlay {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.page-header {
+    color: white;
+    -webkit-text-stroke: 2px blue;
+    text-shadow: 0 0 5px yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.text-shadow-lg {
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
+}
+
+@media (max-width: 991px) {
+    .nav-item {
+        padding: 0.2rem 0;
+    }
+}
