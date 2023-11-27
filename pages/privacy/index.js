@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import Script from 'next/script';
-import ReactPlayer from 'react-player';
-import Link from 'next/link';
 
 const Privacy = () => {
     return (

@@ -1,7 +1,11 @@
 import Link from "next/link";
+import { useState } from "react";
+
+import ServiceMenu from "./ServiceMenu";
 
 const Header = () => {
-    // service and county menus to be added later
+    const [servicesMenu, showServicesMenu] = useState(false);
+    const [serviceMenu, showServiceMenu] = useState('');
 
     function closeMenu() {
         const closeButton = document.getElementById('button-close');
@@ -54,54 +58,53 @@ const Header = () => {
                                     <li className="nav-item">
                                         <Link href="/contact" className="nav-link text-white my-2" onClickCapture={() => closeMenu()}>Contact</Link>
                                     </li>
+                                    <li className="nav-item" onClick={() => showServicesMenu(true)} style={{ cursor: 'pointer' }}>
+                                        <a className="nav-link text-white my-2">Service Areas</a>
+                                        <ul className={"text-white dropdown-menu bg-none border border-0 ps-2 " + (servicesMenu ? 'show' : 'hidden')}>
+                                            <li className="nav-item" onClick={() => showServiceMenu('flood-repair')}>
+                                                <a className="nav-link text-white my-2">Flood Damage Repair +</a>
+                                                <ServiceMenu service="flood-repair" serviceName="flood-damage-repair" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('flood-restoration')}>
+                                                <a className="nav-link text-white my-2">Flood Damage Restoration +</a>
+                                                <ServiceMenu service="flood-restoration" serviceName="flood-damage-restoration" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('water-repair')}>
+                                                <a className="nav-link text-white my-2">Water Damage Repair +</a>
+                                                <ServiceMenu service="water-repair" serviceName="water-damage-repair" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('water-restoration')}>
+                                                <a className="nav-link text-white my-2">Water Damage Restoration +</a>
+                                                <ServiceMenu service="water-restoration" serviceName="water-damage-restoration" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('mold-removal')}>
+                                                <a className="nav-link text-white my-2">Mold Removal +</a>
+                                                <ServiceMenu service="mold-removal" serviceName="mold-removal" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('mold-cleanup')}>
+                                                <a className="nav-link text-white my-2">Mold Damage Cleanup +</a>
+                                                <ServiceMenu service="mold-cleanup" serviceName="mold-damage-cleanup" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('fire-damage')}>
+                                                <a className="nav-link text-white my-2">Fire Damage Cleanup +</a>
+                                                <ServiceMenu service="fire-damage" serviceName="fire-damage-cleanup" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('hoarding')}>
+                                                <a className="nav-link text-white my-2">Hoarding Cleanup +</a>
+                                                <ServiceMenu service="hoarding" serviceName="hoarding-cleanup" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                            <li className="nav-item" onClick={() => showServiceMenu('biohazard')}>
+                                                <a className="nav-link text-white my-2">Biohazard Cleanup +</a>
+                                                <ServiceMenu service="biohazard" serviceName="biohazard-cleanup" serviceMenu={serviceMenu} closeMenu={closeMenu} />
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li className="pb-2">&nbsp;</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </nav>
-                {/* <div className="container-fluid px-0">
-                    <div className="row mx-0 position-relative">
-                        <div className="col-10 offset-1 text-center">
-                            <img src="https://floodmasterrestorationllc.com/img/logo.png" width="60%" alt="Flood Master Restoration" />
-                        </div>
-                        <div className="col-12 px-0">
-                            <nav className="navbar navbar-dark navbar-expand-lg py-0 bg-menu">
-                                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" style={{ position: "absolute", top: "-29px", left: "10px", backgroundColor: "blue" }}>
-                                    <span className="navbar-toggler-icon"></span>
-                                </button>
-                                <div className="collapse navbar-collapse" id="navbarContent">
-                                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Home</Link>
-                                        </li>
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Water</Link>
-                                        </li>
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Mold</Link>
-                                        </li>
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Fire</Link>
-                                        </li>
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Sewer</Link>
-                                        </li>
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Hoarding</Link>
-                                        </li>
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Biohazard</Link>
-                                        </li>
-                                        <li className="nav-item px-1">
-                                            <Link href="/" className="menu-link" onClick={hideNavbar}>Contact</Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     )

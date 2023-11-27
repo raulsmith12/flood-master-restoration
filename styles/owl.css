@@ -81,6 +81,10 @@ body, html {
     text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
 }
 
+.bg-none {
+    background: none;
+}
+
 @media (max-width: 991px) {
     .nav-item {
         padding: 0.2rem 0;

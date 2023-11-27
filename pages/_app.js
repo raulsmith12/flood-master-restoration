@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
           location="bottom"
           buttonText="Okay"
           buttonStyle={{ backgroundColor: "blue", color: "white" }}
-          style={{ backgroundColor: "yellow", zIndex: 9999 }}
+          style={{ backgroundColor: "black", zIndex: 9999 }}
         >
           At Flood Master Restoration, we value the privacy of our cherished customers and adhere to strict privacy policies that prohibit us from selling user information to third party advertisers. Please see our Privacy Policy for more information.
         </CookieConsent>

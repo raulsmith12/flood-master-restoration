@@ -96,26 +96,26 @@ const Contact = () => {
                                                         <div className="row">
                                                             <div className="col">
                                                                 <div className="mb-3">
-                                                                    <label htmlFor="customerName" className="form-label">Name</label>
+                                                                    <label htmlFor="customerName" className="form-label text-white">Name</label>
                                                                     <input type="text" className="form-control" id="customerName" name="customerName" required value={customerName} onChange={e => setCustomerName(e.target.value)} />
                                                                 </div>
                                                                 <div className="mb-3">
-                                                                    <label htmlFor="customerEmail" className="form-label">Email</label>
+                                                                    <label htmlFor="customerEmail" className="form-label text-white">Email</label>
                                                                     <input type="email" className="form-control" id="customerEmail" name="customerEmail" required value={customerEmail} onChange={e => setCustomerEmail(e.target.value)} />
                                                                 </div>
                                                                 <div className="mb-3">
-                                                                    <label htmlFor="customerPhone" className="form-label">Phone Number</label>
+                                                                    <label htmlFor="customerPhone" className="form-label text-white">Phone Number</label>
                                                                     <input type="phone" className="form-control" id="customerPhone" name="customerPhone" required value={customerPhone} onChange={e => setCustomerPhone(e.target.value)} />
                                                                 </div>
                                                                 <div className="mb-3">
-                                                                    <label htmlFor="messageText" className="form-label">Message</label>
+                                                                    <label htmlFor="messageText" className="form-label text-white">Message</label>
                                                                     <textarea className="form-control" id="messageText" name="messageText" required value={message} onChange={e => setMessage(e.target.value)} rows="3" />
                                                                 </div>
                                                                 <ReCAPTCHA
                                                                     sitekey={GoogleKey}
                                                                     ref={captchaRef}
                                                                 />
-                                                                <button type="submit" className="btn btn-alpha">Submit</button>
+                                                                <button type="submit" className="btn btn-primary my-2">Submit</button>
                                                             </div>
                                                         </div>
                                                         <div>
