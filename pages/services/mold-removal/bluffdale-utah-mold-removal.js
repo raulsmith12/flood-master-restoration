@@ -10,13 +10,13 @@ const Landing = () => {
                 <meta name="description" content="Flood Master Restoration LLC is your trusted mold removal service provider for the Bluffdale, Utah area." />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/services/" />
+                <meta property="og:url" content="https://floodmasterrestorationllc.com/services/mold-removal/bluffdale-utah-mold-removal" />
                 <meta property="og:title" content="Bluffdale Utah mold removal - Flood Master Restoration LLC" />
                 <meta property="og:description" content="Flood Master Restoration LLC is your trusted mold removal service provider for the Bluffdale, Utah area." />
                 <meta property="og:image" content="" />
 
                 <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/services/" />
+                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/services/mold-removal/bluffdale-utah-mold-removal" />
                 <meta property="twitter:title" content="Bluffdale Utah mold removal - Flood Master Restoration LLC" />
                 <meta property="twitter:description" content="Flood Master Restoration LLC is your trusted mold removal service provider for the Bluffdale, Utah area." />
                 <meta property="twitter:image" content="" />

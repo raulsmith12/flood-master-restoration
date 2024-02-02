@@ -5,20 +5,20 @@ const Landing = () => {
     return (
         <>
             <Head>
-                <title> - Flood Master Restoration LLC</title>
-                <meta name="title" content=" - Flood Master Restoration LLC" />
-                <meta name="description" content="Flood Master Restoration LLC is your trusted --- service provider for the ---, Utah area." />
+                <title>Clinton Utah biohazard cleanup - Flood Master Restoration LLC</title>
+                <meta name="title" content="Clinton Utah biohazard cleanup - Flood Master Restoration LLC" />
+                <meta name="description" content="Flood Master Restoration LLC is your trusted biohazard cleanup service provider for the Clinton, Utah area." />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://floodmasterrestorationllc.com/services/biohazard-cleanup/clinton-utah-biohazard-cleanup" />
-                <meta property="og:title" content=" - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Flood Master Restoration LLC is your trusted --- service provider for the ---, Utah area." />
+                <meta property="og:title" content="Clinton Utah biohazard cleanup - Flood Master Restoration LLC" />
+                <meta property="og:description" content="Flood Master Restoration LLC is your trusted biohazard cleanup service provider for the Clinton, Utah area." />
                 <meta property="og:image" content="" />
 
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://floodmasterrestorationllc.com/services/biohazard-cleanup/clinton-utah-biohazard-cleanup" />
-                <meta property="twitter:title" content=" - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Flood Master Restoration LLC is your trusted --- service provider for the ---, Utah area." />
+                <meta property="twitter:title" content="Clinton Utah biohazard cleanup - Flood Master Restoration LLC" />
+                <meta property="twitter:description" content="Flood Master Restoration LLC is your trusted biohazard cleanup service provider for the Clinton, Utah area." />
                 <meta property="twitter:image" content="" />
             </Head>
             <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
