@@ -1,41 +1,13 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from '../../components/MetaHeader';
 import ReactPlayer from 'react-player';
 
 const Water = () => {
     return (
         <>
-            <Head>
-                <title>Water Damage - Flood Master Restoration LLC</title>
-                <meta name="title" content="Water Damage - Flood Master Restoration LLC" />
-                <meta name="description" content="Water damage is not only a homeowner's worst nightmare, but it presents a flood of other potential disasters, such as mold and mildew. Don't let water damage get you down. Call the experts at Flood Master Restoration LLC." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/water" />
-                <meta property="og:title" content="Water Damage - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Water damage is not only a homeowner's worst nightmare, but it presents a flood of other potential disasters, such as mold and mildew. Don't let water damage get you down. Call the experts at Flood Master Restoration LLC." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/water" />
-                <meta property="twitter:title" content="Water Damage - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Water damage is not only a homeowner's worst nightmare, but it presents a flood of other potential disasters, such as mold and mildew. Don't let water damage get you down. Call the experts at Flood Master Restoration LLC." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Water Damage - Flood Master Restoration LLC"
+                metadesc = "Water damage is not only a homeowner's worst nightmare, but it presents a flood of other potential disasters, such as mold and mildew. Don't let water damage get you down. Call the experts at Flood Master Restoration LLC."
+                metaurl = "https://floodmasterrestorationllc.com/water"
             />
             <div className="container-fluid bg-water px-0">
                 <div className="row mx-0">

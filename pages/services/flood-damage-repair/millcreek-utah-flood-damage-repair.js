@@ -1,40 +1,12 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from "../../../components/MetaHeader";
 
 const Landing = () => {
     return (
         <>
-            <Head>
-                <title> - Flood Master Restoration LLC</title>
-                <meta name="title" content=" - Flood Master Restoration LLC" />
-                <meta name="description" content="Flood Master Restoration LLC is your trusted --- service provider for the ---, Utah area." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/services/" />
-                <meta property="og:title" content=" - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Flood Master Restoration LLC is your trusted --- service provider for the ---, Utah area." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/services/" />
-                <meta property="twitter:title" content=" - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Flood Master Restoration LLC is your trusted --- service provider for the ---, Utah area." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Millcreek Utah flood damage repair - Flood Master Restoration LLC"
+                metadesc = "Flood Master Restoration LLC is your trusted flood damage repair service provider for the Millcreek, Utah area. Flood damage has the potential to be very costly and destructive."
+                metaurl = "https://floodmasterrestorationllc.com/services/flood-damage-repair/millcreek-utah-flood-damage-repair"
             />
             <div className="container-fluid bg-water px-0">
                 <div className="row mx-0">

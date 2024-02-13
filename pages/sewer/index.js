@@ -1,40 +1,12 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from '../../components/MetaHeader';
 
 const Sewer = () => {
     return (
         <>
-            <Head>
-                <title>Sewer Backup Cleanup - Flood Master Restoration LLC</title>
-                <meta name="title" content="Sewer Backup Cleanup - Flood Master Restoration LLC" />
-                <meta name="description" content="Sewer backup cleanup doesn't have to be a bad thing if you have professional cleaners like the professionals from Flood Master Restoration LLC." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/sewer" />
-                <meta property="og:title" content="Sewer Backup Cleanup - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Sewer backup cleanup doesn't have to be a bad thing if you have professional cleaners like the professionals from Flood Master Restoration LLC." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/sewer" />
-                <meta property="twitter:title" content="Sewer Backup Cleanup - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Sewer backup cleanup doesn't have to be a bad thing if you have professional cleaners like the professionals from Flood Master Restoration LLC." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Sewer Backup Cleanup - Flood Master Restoration LLC"
+                metadesc = "Sewer backup cleanup doesn't have to be a bad thing if you have professional cleaners like the professionals from Flood Master Restoration LLC."
+                metaurl = "https://floodmasterrestorationllc.com/sewer"
             />
             <div className="container-fluid bg-sewer px-0">
                 <div className="row mx-0">

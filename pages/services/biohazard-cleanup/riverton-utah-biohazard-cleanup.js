@@ -1,40 +1,12 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from "../../../components/MetaHeader";
 
 const Landing = () => {
     return (
         <>
-            <Head>
-                <title>Riverton Utah biohazard cleanup - Flood Master Restoration LLC</title>
-                <meta name="title" content="Riverton Utah biohazard cleanup - Flood Master Restoration LLC" />
-                <meta name="description" content="Flood Master Restoration LLC is your trusted biohazard cleanup service provider for the Riverton, Utah area." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/services/biohazard-cleanup/riverton-utah-biohazard-cleanup" />
-                <meta property="og:title" content="Riverton Utah biohazard cleanup - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Flood Master Restoration LLC is your trusted biohazard cleanup service provider for the Riverton, Utah area." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/services/biohazard-cleanup/riverton-utah-biohazard-cleanup" />
-                <meta property="twitter:title" content="Riverton Utah biohazard cleanup - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Flood Master Restoration LLC is your trusted biohazard cleanup service provider for the Riverton, Utah area." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Riverton Utah biohazard cleanup - Flood Master Restoration LLC"
+                metadesc = "Flood Master Restoration LLC is your trusted biohazard cleanup service provider for the Riverton, Utah area. Whether you are looking for help with a crime scene or biohazardous materials, Flood Master Restoration LLC is here for you."
+                metaurl = "https://floodmasterrestorationllc.com/services/biohazard-cleanup/riverton-utah-biohazard-cleanup"
             />
             <div className="container-fluid bg-water px-0">
                 <div className="row mx-0">
@@ -42,13 +14,13 @@ const Landing = () => {
                         <div className="container-fluid bg-overlay px-0">
                             <div className="row mx-0">
                                 <div className="col px-0">
-                                    <h1 className="display-1 page-header text-center">Welcome to Flood Master Restoration LLC: Your Trusted Partner in Biohazard Cleanup in Riverdale, Utah</h1>
+                                    <h1 className="display-1 page-header text-center">Welcome to Flood Master Restoration LLC: Your Trusted Partner in Biohazard Cleanup in Riverton, Utah</h1>
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-12">
-                                                <p className="text-white">In the face of unforeseen disasters, Flood Master Restoration LLC stands as your unwavering ally, ready to restore peace and safety to your home or business. We understand that the aftermath of biohazard incidents can be overwhelming and emotionally challenging. Our commitment is to provide swift, professional, and discreet biohazard cleanup services in Riverdale, Utah, ensuring your property is restored to a safe and habitable condition.</p>
-                                                <h3 className="text-white text-center display-5">The Unseen Dangers: Biohazards in Riverdale, Utah</h3>
-                                                <p className="text-white">Riverdale, Utah, with its serene landscapes and tight-knit community, is not immune to unexpected events that can result in biohazardous situations. Whether it&rsquo;s a crime scene, unattended death, trauma, hoarding, or any other biohazard incident, the need for specialized cleanup is crucial. These situations not only pose health risks but also require a delicate and empathetic approach.</p>
+                                                <p className="text-white">In the face of unforeseen disasters, Flood Master Restoration LLC stands as your unwavering ally, ready to restore peace and safety to your home or business. We understand that the aftermath of biohazard incidents can be overwhelming and emotionally challenging. Our commitment is to provide swift, professional, and discreet biohazard cleanup services in Riverton, Utah, ensuring your property is restored to a safe and habitable condition.</p>
+                                                <h3 className="text-white text-center display-5">The Unseen Dangers: Biohazards in Riverton, Utah</h3>
+                                                <p className="text-white">Riverton, Utah, with its serene landscapes and tight-knit community, is not immune to unexpected events that can result in biohazardous situations. Whether it&rsquo;s a crime scene, unattended death, trauma, hoarding, or any other biohazard incident, the need for specialized cleanup is crucial. These situations not only pose health risks but also require a delicate and empathetic approach.</p>
                                                 <h3 className="text-white text-center display-5">Our Comprehensive Biohazard Cleanup Services</h3>
                                                 <p className="text-white">At Flood Master Restoration LLC, we specialize in biohazard cleanup, combining cutting-edge technology with compassionate expertise. Our team of certified professionals is equipped to handle a wide range of biohazardous situations in Riverton, Utah, ensuring a thorough and meticulous cleanup process. Here&rsquo;s an overview of our comprehensive services:</p>
                                                 <ol className="text-white">
@@ -67,10 +39,10 @@ const Landing = () => {
                                                     <li className="text-white"><strong className="text-white">Compliance with Regulations</strong>: We stay abreast of local, state, and federal regulations related to biohazard cleanup. Our practices adhere to all guidelines, ensuring legal compliance and the well-being of our clients.</li>
                                                 </ol>
                                                 <h3 className="text-white text-center display-5">Your Peace of Mind is Our Priority</h3>
-                                                <p className="text-white">At Flood Master Restoration LLC, we go beyond biohazard cleanup; we restore a sense of normalcy to your life. Our commitment to excellence, compassion, and professionalism sets us apart as the trusted choice for biohazard cleanup services in Riverdale, Utah. We understand that every situation is unique, and we approach each case with the attention and care it deserves.</p>
+                                                <p className="text-white">At Flood Master Restoration LLC, we go beyond biohazard cleanup; we restore a sense of normalcy to your life. Our commitment to excellence, compassion, and professionalism sets us apart as the trusted choice for biohazard cleanup services in Riverton, Utah. We understand that every situation is unique, and we approach each case with the attention and care it deserves.</p>
                                                 <h3 className="text-white text-center display-5">Get in Touch with Flood Master Restoration LLC</h3>
-                                                <p className="text-white">If you find yourself facing a biohazard cleanup situation in Riverdale, Utah, don&rsquo;t hesitate to reach out to Flood Master Restoration LLC. Our dedicated team is here to guide you through the process, providing support and solutions tailored to your specific needs. Trust us to handle the cleanup, so you can focus on healing and moving forward.</p>
-                                                <p className="text-white">Let Flood Master Restoration LLC be your beacon of hope in the aftermath of biohazard incidents. Your safety, well-being, and peace of mind are our top priorities. Contact us today and experience the difference of working with a compassionate and professional biohazard cleanup partner in Riverdale, Utah.</p>
+                                                <p className="text-white">If you find yourself facing a biohazard cleanup situation in Riverton, Utah, don&rsquo;t hesitate to reach out to Flood Master Restoration LLC. Our dedicated team is here to guide you through the process, providing support and solutions tailored to your specific needs. Trust us to handle the cleanup, so you can focus on healing and moving forward.</p>
+                                                <p className="text-white">Let Flood Master Restoration LLC be your beacon of hope in the aftermath of biohazard incidents. Your safety, well-being, and peace of mind are our top priorities. Contact us today and experience the difference of working with a compassionate and professional biohazard cleanup partner in Riverton, Utah.</p>
                                             </div>
                                         </div>
                                     </div>

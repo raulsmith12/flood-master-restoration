@@ -1,11 +1,10 @@
 import { useState, useRef } from 'react';
-import Head from 'next/head';
-import Script from 'next/script';
 import axios from 'axios';
 import swal from 'sweetalert';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 import { GoogleKey } from '../../components/GoogleKey';
+import MetaHeader from '../../components/MetaHeader';
 
 const API_PATH = 'https://floodmasterrestorationllc.com/backend/public/api/contact';
 
@@ -40,37 +39,10 @@ const Contact = () => {
 
     return (
         <>
-            <Head>
-                <title>Contact Us - Flood Master Restoration LLC</title>
-                <meta name="title" content="Contact Us - Flood Master Restoration LLC" />
-                <meta name="description" content="Contact Flood Master Restoration LLC today by contact form, email, phone, or by following us on Facebook." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/contact" />
-                <meta property="og:title" content="Contact Us - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Contact Flood Master Restoration LLC today by contact form, email, phone, or by following us on Facebook." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/contact" />
-                <meta property="twitter:title" content="Contact Us - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Contact Flood Master Restoration LLC today by contact form, email, phone, or by following us on Facebook." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Contact Us - Flood Master Restoration LLC"
+                metadesc = "Contact Flood Master Restoration LLC today by contact form, email, phone, or by following us on Facebook."
+                metaurl = "https://floodmasterrestorationllc.com/contact"
             />
             <div className="container-fluid bg-water px-0">
                 <div className="row mx-0">

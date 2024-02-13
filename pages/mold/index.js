@@ -1,41 +1,13 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from '../../components/MetaHeader';
 import ReactPlayer from 'react-player';
 
 const Mold = () => {
     return (
         <>
-            <Head>
-                <title>Mold Damage - Flood Master Restoration LLC</title>
-                <meta name="title" content="Mold Damage - Flood Master Restoration LLC" />
-                <meta name="description" content="Don't let mold adversely affect your health or your home. Call on Flood Master Restoration LLC and let our technicians handle mold removal for your home or business today!" />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/mold" />
-                <meta property="og:title" content="Mold Damage - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Don't let mold adversely affect your health or your home. Call on Flood Master Restoration LLC and let our technicians handle mold removal for your home or business today!" />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/mold" />
-                <meta property="twitter:title" content="Mold Damage - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Don't let mold adversely affect your health or your home. Call on Flood Master Restoration LLC and let our technicians handle mold removal for your home or business today!" />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Mold Damage - Flood Master Restoration LLC"
+                metadesc = "Don't let mold adversely affect your health or your home. Call on Flood Master Restoration LLC and let our technicians handle mold removal for your home or business today!"
+                metaurl = "https://floodmasterrestorationllc.com/mold"
             />
             <div className="container-fluid bg-mold px-0">
                 <div className="row mx-0">

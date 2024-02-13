@@ -1,40 +1,12 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from '../../components/MetaHeader';
 
 const Fire = () => {
     return (
         <>
-            <Head>
-                <title>Fire Damage - Flood Master Restoration LLC</title>
-                <meta name="title" content="Fire Damage - Flood Master Restoration LLC" />
-                <meta name="description" content="House fires can lead to complete devastation. Not only can the flames take away cherished memories and security, but the water used to put out fires can also lead to further extensive damage. Let Flood Master Restoration LLC handle fire damage cleanup for your home." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/fire" />
-                <meta property="og:title" content="Fire Damage - Flood Master Restoration LLC" />
-                <meta property="og:description" content="House fires can lead to complete devastation. Not only can the flames take away cherished memories and security, but the water used to put out fires can also lead to further extensive damage. Let Flood Master Restoration LLC handle fire damage cleanup for your home." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/fire" />
-                <meta property="twitter:title" content="Fire Damage - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="House fires can lead to complete devastation. Not only can the flames take away cherished memories and security, but the water used to put out fires can also lead to further extensive damage. Let Flood Master Restoration LLC handle fire damage cleanup for your home." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Fire Damage - Flood Master Restoration LLC"
+                metadesc = "House fires can lead to complete devastation. Not only can the flames take away cherished memories and security, but the water used to put out fires can also lead to further extensive damage. Let Flood Master Restoration LLC handle fire damage cleanup for your home."
+                metaurl = "https://floodmasterrestorationllc.com/fire"
             />
             <div className="container-fluid bg-fire px-0">
                 <div className="row mx-0">

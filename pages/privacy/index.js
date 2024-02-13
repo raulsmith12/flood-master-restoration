@@ -1,40 +1,12 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from '../../components/MetaHeader';
 
 const Privacy = () => {
     return (
         <>
-            <Head>
-                <title>Privacy Policy - Flood Master Restoration LLC</title>
-                <meta name="title" content="Privacy Policy - Flood Master Restoration LLC" />
-                <meta name="description" content="We at Flood Master Restoration LLC take the privacy of our customers very seriously and adhere to all local and federal regulations and laws regarding the information we collect on our website." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/privacy" />
-                <meta property="og:title" content="Privacy Policy - Flood Master Restoration LLC" />
-                <meta property="og:description" content="We at Flood Master Restoration LLC take the privacy of our customers very seriously and adhere to all local and federal regulations and laws regarding the information we collect on our website." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/privacy" />
-                <meta property="twitter:title" content="Privacy Policy - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="We at Flood Master Restoration LLC take the privacy of our customers very seriously and adhere to all local and federal regulations and laws regarding the information we collect on our website." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Privacy Policy - Flood Master Restoration LLC"
+                metadesc = "We at Flood Master Restoration LLC take the privacy of our customers very seriously and adhere to all local and federal regulations and laws regarding the information we collect on our website."
+                metaurl = "https://floodmasterrestorationllc.com/privacy"
             />
             <div className="container-fluid bg-water px-0">
                 <div className="row mx-0">

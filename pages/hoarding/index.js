@@ -1,41 +1,13 @@
-import Head from 'next/head';
-import Script from 'next/script';
+import MetaHeader from '../../components/MetaHeader';
 import ReactPlayer from 'react-player';
 
 const Hoarding = () => {
     return (
         <>
-            <Head>
-                <title>Hoarding Cleanup - Flood Master Restoration LLC</title>
-                <meta name="title" content="Hoarding Cleanup - Flood Master Restoration LLC" />
-                <meta name="description" content="Hoarding can lead to a multitude of health and sanitation issues for you and your loved ones. Let Flood Master Restoration LLC help you with your hoarding cleanup needs." />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://floodmasterrestorationllc.com/hoarding" />
-                <meta property="og:title" content="Hoarding Cleanup - Flood Master Restoration LLC" />
-                <meta property="og:description" content="Hoarding can lead to a multitude of health and sanitation issues for you and your loved ones. Let Flood Master Restoration LLC help you with your hoarding cleanup needs." />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://floodmasterrestorationllc.com/hoarding" />
-                <meta property="twitter:title" content="Hoarding Cleanup - Flood Master Restoration LLC" />
-                <meta property="twitter:description" content="Hoarding can lead to a multitude of health and sanitation issues for you and your loved ones. Let Flood Master Restoration LLC help you with your hoarding cleanup needs." />
-                <meta property="twitter:image" content="" />
-            </Head>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
-            <Script
-              id='google-analytics'
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-RQWPNM9BFY', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
+            <MetaHeader
+                metatitle = "Hoarding Cleanup - Flood Master Restoration LLC"
+                metadesc = "Hoarding can lead to a multitude of health and sanitation issues for you and your loved ones. Let Flood Master Restoration LLC help you with your hoarding cleanup needs."
+                metaurl = "https://floodmasterrestorationllc.com/hoarding"
             />
             <div className="container-fluid bg-hoarding px-0">
                 <div className="row mx-0">
