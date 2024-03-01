@@ -1,3 +1,5 @@
+import MetaHeader from "../../../components/MetaHeader";
+
 const Landing = () => {
     return (
         <>
