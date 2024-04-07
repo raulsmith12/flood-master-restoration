@@ -22,6 +22,7 @@ const MetaHeader = ({ metatitle, metadesc, metaurl }) => {
                 <meta property="twitter:description" content={metadesc} />
                 <meta property="twitter:image" content="" />
                 
+                <link rel="canonical" href="https://floodmasterrestorationllc.com" />
                 <link rel="icon" href="favicon.ico" />
                 <link rel="manifest" href="manifest.json" />
             </Head>
