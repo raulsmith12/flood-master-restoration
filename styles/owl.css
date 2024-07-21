@@ -27,42 +27,48 @@ body, html {
     background-image: url("https://floodmasterrestorationllc.com/img/water-damage-bg-1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-mold {
     background-image: url("https://floodmasterrestorationllc.com/img/tim-mossholder-R4PXm64sWwI-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-fire {
     background-image: url("https://floodmasterrestorationllc.com/img/maksym-kaharlytskyi-uYv3ura5M9A-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-sewer {
     background-image: url("https://floodmasterrestorationllc.com/img/ian-talmacs-KvIPGhVXeoI-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-hoarding {
     background-image: url("https://floodmasterrestorationllc.com/img/denny-muller-fTWvRkMrNtY-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-biohazard {
     background-image: url("https://floodmasterrestorationllc.com/img/featured-image-970x545.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-overlay {
