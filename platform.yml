@@ -1,0 +1,10 @@
+project: flood-master-restoration
+
+services:
+  web:
+    path: .
+    type: static
+    build: npm run build
+    output: out
+    healthcheck: /
+    spa: false
