@@ -28,6 +28,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# Local Codex integrations (may contain credentials)
+/.codex/config.toml
+
 # vercel
 .vercel
 
