@@ -21,7 +21,7 @@ const Home = () => {
                                         <div className="row">
                                             <div className="col-6 offset-3">
                                                 <ReactPlayer
-                                                    url="https://floodmasterrestorationllc.com/img/Shortwebintro.MP4"
+                                                    url="/img/Shortwebintro.MP4"
                                                     playing={true}
                                                     loop={true}
                                                     muted={true}
@@ -43,8 +43,8 @@ const Home = () => {
                                                 <p className="text-white">Thorough drying is crucial to prevent structural damage and the growth of mold and mildew. We use high-tech drying equipment to ensure your property is moisture-free.</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/8.jpg" width="95%" className="my-2" alt="Water damage from roof" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/10.jpg" width="95%" className="my-2" alt="Flood damaged floor" />
+                                                <img src="/img/8.jpg" width="95%" className="my-2" alt="Water damage from roof" /><br /><br />
+                                                <img src="/img/10.jpg" width="95%" className="my-2" alt="Flood damaged floor" />
                                             </div>
                                             <div className="col-md-6 col-sm-12">
                                                 <p className="text-white">We understand that your personal belongings are invaluable. Our flood damage restoration services include cleaning and restoring damaged items, from furniture to electronics and sentimental possessions.</p>
@@ -61,8 +61,8 @@ const Home = () => {
                                                 <p className="text-white">Don&rsquo;t let flood damage define your future. Trust the experts at Flood Master Restoration to restore your property and your peace of mind.</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/7.jpg" width="95%" className="my-2" alt="Flood damaged carpet" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/42857450_1693963147375219_7508422678240296960_o.jpg" width="95%" className="my-2" alt="Flood damaged warehouse" />
+                                                <img src="/img/7.jpg" width="95%" className="my-2" alt="Flood damaged carpet" /><br /><br />
+                                                <img src="/img/42857450_1693963147375219_7508422678240296960_o.jpg" width="95%" className="my-2" alt="Flood damaged warehouse" />
                                             </div>
                                         </div>
                                     </div>

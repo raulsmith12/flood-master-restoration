@@ -19,7 +19,7 @@ const Sewer = () => {
                                     <div className="container-fluid">
                                         <div className="row">
                                             <div className="col-6 offset-3">
-                                                <img src="https://floodmasterrestorationllc.com/img/sewer-cap-series-1-1502470.jpg" width="95%" alt="Sewer cap showcasing the need for sewer backup cleanup" />
+                                                <img src="/img/sewer-cap-series-1-1502470.jpg" width="95%" alt="Sewer cap showcasing the need for sewer backup cleanup" />
                                             </div>
                                         </div>
                                     </div>

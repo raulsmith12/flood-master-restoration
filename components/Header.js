@@ -18,7 +18,7 @@ const Header = () => {
                 <nav className="navbar bg-header sticky-top border-bottom border-primary overflow-scroll">
                     <div className="container">
                         <Link href="/" className="navbar-brand">
-                            <img src="https://floodmasterrestorationllc.com/img/logo.png" height="50" alt="Flood Master Restoration" />
+                            <img src="/img/logo.png" height="50" alt="Flood Master Restoration" />
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#fmrNavbar" aria-controls="fmrNavbar" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@ const Header = () => {
                         <div className="offcanvas offcanvas-end bg-menu text-bg-dark" tabIndex="-1" id="fmrNavbar" aria-labelledby="fmrNavbarLabel">
                             <div className="offcanvas-header">
                                 <h6>
-                                    <img src="https://floodmasterrestorationllc.com/img/logo.png" height="35" alt="Flood Master Restoration" /><br />
+                                    <img src="/img/logo.png" height="35" alt="Flood Master Restoration" /><br />
                                     &nbsp;&nbsp;<a href="tel:1-801-637-8033" className="text-black">801-637-8033</a><br />
                                     &nbsp;&nbsp;<a href="mailto:floodmasterut@gmail.com" className="text-black">FloodMasterUT@gmail.com</a>
                                 </h6>

@@ -20,7 +20,7 @@ const Water = () => {
                                     <div className="container-fluid">
                                         <div className="row">
                                             <div className="col-6 offset-3">
-                                                <img src="https://floodmasterrestorationllc.com/img/42857450_1693963147375219_7508422678240296960_o.jpg" width="95%" className="my-2" alt="Water damaged warehouse" />
+                                                <img src="/img/42857450_1693963147375219_7508422678240296960_o.jpg" width="95%" className="my-2" alt="Water damaged warehouse" />
                                             </div>
                                         </div>
                                     </div>
@@ -36,9 +36,9 @@ const Water = () => {
                                                 <p className="text-white">Water damage restoration professionals are trained to address mold and mildew issues, ensuring that your home is safe and healthy to inhabit. They have the necessary protective gear and equipment to safely remove contaminated materials and prevent mold from spreading. Investing in water damage restoration not only protects your property but also safeguards the well-being of your family.</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/8.jpg" width="95%" className="my-2" alt="Water damage from roof" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/2.jpg" width="95%" className="my-2" alt="Water damage from roof" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/1.jpg" width="95%" className="my-2" alt="Water damage from roof" />
+                                                <img src="/img/8.jpg" width="95%" className="my-2" alt="Water damage from roof" /><br /><br />
+                                                <img src="/img/2.jpg" width="95%" className="my-2" alt="Water damage from roof" /><br /><br />
+                                                <img src="/img/1.jpg" width="95%" className="my-2" alt="Water damage from roof" />
                                             </div>
                                             <div className="col-md-6 col-sm-12">
                                                 <h3 className="text-center text-white text-shadow-lg display-6">Preserving Your Belongings</h3>
@@ -56,10 +56,10 @@ const Water = () => {
                                                 <p className="text-white">Contact Flood Master Restoration LLC today and schedule a water damage restoration appointment.</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/7.jpg" width="95%" className="my-2" alt="Water damaged carpet" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/10.jpg" width="95%" className="my-2" alt="Water damaged floor" /><br /><br />
+                                                <img src="/img/7.jpg" width="95%" className="my-2" alt="Water damaged carpet" /><br /><br />
+                                                <img src="/img/10.jpg" width="95%" className="my-2" alt="Water damaged floor" /><br /><br />
                                                 <ReactPlayer
-                                                    url="https://floodmasterrestorationllc.com/img/WaterDamagevid.mp4"
+                                                    url="/img/WaterDamagevid.mp4"
                                                     playing={true}
                                                     loop={true}
                                                     muted={true}

@@ -19,7 +19,7 @@ const Fire = () => {
                                     <div className="container-fluid">
                                         <div className="row">
                                             <div className="col-6 offset-3">
-                                                <img src="https://floodmasterrestorationllc.com/img/10750255216_IMG_5997.jpg" width="95%" className="my-2" alt="Fire damage restoration process starts" />
+                                                <img src="/img/10750255216_IMG_5997.jpg" width="95%" className="my-2" alt="Fire damage restoration process starts" />
                                             </div>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@ const Fire = () => {
                                                 <h3 className="text-center text-white text-shadow-lg display-6">Why You Should Choose Flood Master Restoration LLC</h3>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/IMG_2567.jpg" width="95%" className="my-5" alt="Effects of fire damage to a home" />
+                                                <img src="/img/IMG_2567.jpg" width="95%" className="my-5" alt="Effects of fire damage to a home" />
                                             </div>
                                             <div className="col-md-6 col-sm-12">
                                                 <p className="text-white">Selecting the right fire damage restoration company is of paramount importance. Here are some things to look for when choosing a fire damage restoration company:</p>
@@ -68,8 +68,8 @@ const Fire = () => {
                                                 <p className="text-white">Flood Master Restoration LLC checks all of the boxes and provides technicians that have years of experience in the fire damage restoration field.</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/IMG_5737.jpg" width="95%" className="my-2" alt="Charred remnants of fire damaged home" /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/IMG_5845.jpg" width="95%" className="my-2" alt="Completely fire damaged home" />
+                                                <img src="/img/IMG_5737.jpg" width="95%" className="my-2" alt="Charred remnants of fire damaged home" /><br />
+                                                <img src="/img/IMG_5845.jpg" width="95%" className="my-2" alt="Completely fire damaged home" />
                                             </div>
                                             <div className="col-12">
                                                 <h3 className="text-center text-white text-shadow-lg display-6">For Peace of Mind and a Better Tomorrow, Call Flood Master Restoration LLC Today!</h3>

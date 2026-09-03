@@ -19,7 +19,7 @@ const Hazard = () => {
                                     <div className="container-fluid">
                                         <div className="row">
                                             <div className="col-6 offset-3">
-                                                <img src="https://floodmasterrestorationllc.com/img/1513808462449366632hazmat-suits-ebola.hi.png" width="95%" alt="Man in hazmat suit ready for biohazard cleanup" />
+                                                <img src="/img/1513808462449366632hazmat-suits-ebola.hi.png" width="95%" alt="Man in hazmat suit ready for biohazard cleanup" />
                                             </div>
                                         </div>
                                     </div>

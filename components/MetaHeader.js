@@ -23,8 +23,8 @@ const MetaHeader = ({ metatitle, metadesc, metaurl }) => {
                 <meta property="twitter:image" content="" />
                 
                 <link rel="canonical" href="https://floodmasterrestorationllc.com" />
-                <link rel="icon" href="favicon.ico" />
-                <link rel="manifest" href="manifest.json" />
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="manifest" href="/manifest.json" />
             </Head>
             <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RQWPNM9BFY"/>
             <Script

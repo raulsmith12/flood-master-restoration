@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="col-1 text-center">
                 <a href="https://www.facebook.com/FloodMasterrestorationllc/?modal=admin_todo_tour" target="_blank">
-                    <img src="https://floodmasterrestorationllc.com/img/facebook.png" width="70%" alt="Follow Us on Facebook" style={{ border: "none" }} /><br />
+                    <img src="/img/facebook.png" width="70%" alt="Follow Us on Facebook" style={{ border: "none" }} /><br />
                     <strong>Follow Us</strong>
                 </a>
             </div>

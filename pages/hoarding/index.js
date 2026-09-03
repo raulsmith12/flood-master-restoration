@@ -21,7 +21,7 @@ const Hoarding = () => {
                                         <div className="row">
                                             <div className="col-6 offset-3">
                                                 <ReactPlayer
-                                                    url="https://floodmasterrestorationllc.com/img/Hoardingbackground.mp4"
+                                                    url="/img/Hoardingbackground.mp4"
                                                     playing={true}
                                                     loop={true}
                                                     muted={true}
@@ -57,8 +57,8 @@ const Hoarding = () => {
                                                 <p className="text-white">Our team at Flood Master Restoration takes a compassionate and customized approach to hoarding cleanup. We understand the sensitivity of this issue and the importance of treating it with care and respect. Here&rsquo;s how we tackle hoarding cleanup:</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/MVI_6170.00_02_57_36.Still013.png" width="95%" className="my-2" alt="Hoarding cleanup process beginning" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/MVI_6170.00_13_58_46.Still010.png" width="95%" className="my-2" alt="Hoarding cleanup in process" />
+                                                <img src="/img/MVI_6170.00_02_57_36.Still013.png" width="95%" className="my-2" alt="Hoarding cleanup process beginning" /><br /><br />
+                                                <img src="/img/MVI_6170.00_13_58_46.Still010.png" width="95%" className="my-2" alt="Hoarding cleanup in process" />
                                             </div>
                                             <div className="col-md-6 col-sm-12">
                                                 <ol className="text-white">
@@ -73,8 +73,8 @@ const Hoarding = () => {
                                                 </ol>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/MVI_6170.00_03_16_15.Still014.png" width="95%" className="my-2" alt="Room in need of hoarding cleanup" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/MVI_6170.00_14_09_00.Still011.png" width="95%" className="my-2" alt="Room in dire need of hoarding cleanup" />
+                                                <img src="/img/MVI_6170.00_03_16_15.Still014.png" width="95%" className="my-2" alt="Room in need of hoarding cleanup" /><br /><br />
+                                                <img src="/img/MVI_6170.00_14_09_00.Still011.png" width="95%" className="my-2" alt="Room in dire need of hoarding cleanup" />
                                             </div>
                                             <div className="col-12">
                                                 <p className="text-white">Hoarding cleanup is a crucial step towards reclaiming spaces and restoring lives. It is not just about cleaning up clutter; it is a compassionate and holistic process that addresses the root causes of hoarding while ensuring the safety, well-being, and quality of life for individuals and their families. At Flood Master Restoration, we are committed to providing top-quality hoarding cleanup services, offering support, and understanding for those who need it most. Let us help you or your loved one embark on the path to recovery and a brighter future.</p>

@@ -21,7 +21,7 @@ const Mold = () => {
                                         <div className="row">
                                             <div className="col-6 offset-3">
                                                 <ReactPlayer
-                                                    url="https://floodmasterrestorationllc.com/img/Mold background.mp4"
+                                                    url="/img/Mold background.mp4"
                                                     playing={true}
                                                     loop={true}
                                                     muted={true}
@@ -44,8 +44,8 @@ const Mold = () => {
                                                 <p className="text-white">Moreover, mold can infiltrate hidden areas, making it challenging to detect until the problem has escalated. As it spreads through your home, it can weaken the framework and foundation, causing potential structural damage that may go unnoticed until it&rsquo;s too late.</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/42158394_1682989531805914_7736145348967530496_n.jpg" width="95%" className="my-2" alt="Floor tiles removed during mold removal procedure" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/49206362_1816562138448652_9047957850134937600_n.jpg" width="95%" className="my-2" alt="Base boards removed during mold removal procedure" />
+                                                <img src="/img/42158394_1682989531805914_7736145348967530496_n.jpg" width="95%" className="my-2" alt="Floor tiles removed during mold removal procedure" /><br /><br />
+                                                <img src="/img/49206362_1816562138448652_9047957850134937600_n.jpg" width="95%" className="my-2" alt="Base boards removed during mold removal procedure" />
                                             </div>
                                             <div className="col-md-6 col-sm-12">
                                                 <h3 className="text-center text-white text-shadow-lg display-6">Maintaining Indoor Air Quality</h3>
@@ -58,9 +58,9 @@ const Mold = () => {
                                                 <p className="text-white">Mold removal is not a DIY project or something to be taken lightly. Many homeowners attempt to tackle mold issues themselves, only to find that the problem persists or worsens. Professional mold removal is essential because experts have the knowledge, equipment, and experience to identify the extent of the infestation and effectively eliminate it. They can also take steps to prevent future mold growth.</p>
                                             </div>
                                             <div className="col-md-3 col-sm-12 align-content-center">
-                                                <img src="https://floodmasterrestorationllc.com/img/48385204_1792441244194075_6866253573462687744_n.jpg" width="95%" className="my-2" alt="Ceiling tiles removed during mold removal procedure" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/MVI_6170.01_00_27_56.Still007.png" width="95%" className="my-2" alt="House interior wall in need of mold removal" /><br /><br />
-                                                <img src="https://floodmasterrestorationllc.com/img/MVI_6170.01_00_33_13.Still008.png" width="95%" className="my-2" alt="House interior wall in need of mold removal" />
+                                                <img src="/img/48385204_1792441244194075_6866253573462687744_n.jpg" width="95%" className="my-2" alt="Ceiling tiles removed during mold removal procedure" /><br /><br />
+                                                <img src="/img/MVI_6170.01_00_27_56.Still007.png" width="95%" className="my-2" alt="House interior wall in need of mold removal" /><br /><br />
+                                                <img src="/img/MVI_6170.01_00_33_13.Still008.png" width="95%" className="my-2" alt="House interior wall in need of mold removal" />
                                             </div>
                                             <div className="col-12">
                                                 <h3 className="text-center text-white text-shadow-lg display-6">Let the experts at Flood Master Restoration handle all your mold removal needs today!</h3>
